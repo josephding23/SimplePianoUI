@@ -1,8 +1,9 @@
 import os
 
-from PyQt5.QtCore import *
-from PyQt5.QtGui import *
-from PyQt5.QtWidgets import *
+from PyQt5.QtCore import Qt
+from PyQt5.QtGui import QFont, QKeySequence, QIcon
+from PyQt5.QtWidgets import QComboBox, QLabel, QVBoxLayout, QHBoxLayout, QSlider, QSpinBox, QShortcut, \
+    QMessageBox, QWidget, QFileDialog, QMainWindow, QCheckBox
 
 os.environ['PYGAME_HIDE_SUPPORT_PROMPT'] = "hide"
 import pygame.midi

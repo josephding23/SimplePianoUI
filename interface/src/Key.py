@@ -1,6 +1,6 @@
-from PyQt5.QtWidgets import *
-from PyQt5.QtGui import *
-from PyQt5.QtCore import *
+from PyQt5.QtWidgets import QWidget, QPushButton, QVBoxLayout
+from PyQt5.QtGui import QFont
+from PyQt5.QtCore import Qt
 
 from midi_extended.UtilityBox import *
 

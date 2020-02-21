@@ -1,5 +1,5 @@
-from PyQt5.QtWidgets import *
-from PyQt5.QtGui import *
+from PyQt5.QtWidgets import QMainWindow, QApplication
+from PyQt5.QtGui import QIcon
 import sys
 import os
 from interface.src.Piano import Piano

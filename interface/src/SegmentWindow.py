@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 from matplotlib.figure import Figure
 from matplotlib.path import Path
 import matplotlib.patches as patches
-from PyQt5.QtWidgets import *
+from PyQt5.QtWidgets import QMainWindow, QGraphicsScene, QGraphicsView, QPushButton, QScrollArea, QVBoxLayout
 import os
 import sys
 from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas

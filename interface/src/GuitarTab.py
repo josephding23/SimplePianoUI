@@ -1,6 +1,6 @@
-from PyQt5.QtWidgets import *
-from PyQt5.QtGui import *
-from PyQt5.QtCore import *
+from PyQt5.QtWidgets import QWidget, QGridLayout, QPushButton, QVBoxLayout, QApplication
+from PyQt5.QtGui import QBrush, QPixmap, QPalette,QFont
+from PyQt5.QtCore import Qt
 import pygame.midi
 import sys
 
@@ -49,7 +49,7 @@ class FretNode(QWidget):
         self.setObjectName('FretNode')
         self.note = note
         self.volume = volume
-        self.note_name = get_note_name_by_midi_value(self.note)
+        self.note_name = note_number_to_name(self.note, 's')
         self.color = color
         self.show_name = show_name
         self.initUI()
